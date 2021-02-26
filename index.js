@@ -123,6 +123,7 @@ var app = new Vue({
       if (this.licznik.planszeAlicz === 6) {
         this.video.seen = true;
         this.plansza1.seen = false;
+        this.appbackground.src = backgrounds[2];
       }
       if (this.licznik.planszeAlicz === 7) {
         this.planszeAlicz = 0;
@@ -161,6 +162,7 @@ var app = new Vue({
       if (this.licznik.planszeAlicz === 4) {
         this.video.seen = false;
         this.plansza1.seen = true;
+        this.appbackground.src=backgrounds[1];
       }
       this.plansza1.src = planszeA[this.licznik.planszeAlicz];
     },
