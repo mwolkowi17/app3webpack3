@@ -159,7 +159,7 @@ var app = new Vue({
         this.plansza1.src = planszeA[this.licznik.planszeAlicz];
 
       }
-      if (this.licznik.planszeAlicz === 4) {
+      if (this.licznik.planszeAlicz === 5) {
         this.video.seen = false;
         this.plansza1.seen = true;
         this.appbackground.src=backgrounds[1];
